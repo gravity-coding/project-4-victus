@@ -174,11 +174,29 @@ nav {
 }
 
 @media (max-width: 500px) {
+  .part-1 {
+    height: 65vh;
+  }
   .mainHeading {
     font-size: 10vw;
   }
   .cta {
     padding: 3.8vw 8vw;
     font-size: 4vw;
+  }
+  .part-2 {
+    flex-direction: column;
+    /* height: 140vh; */
+    gap: 10vh;
+  }
+  .lft-part-2 {
+    width: 70vw;
+    height: 70vh;
+  }
+  .rght-part-2 {
+    width: 70vw;
+  }
+  .rght-part-2 img {
+    width: 140%;
   }
 }
